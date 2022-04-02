@@ -1,0 +1,29 @@
+browser to server - https POST 302 https://studies.cs.helsinki.fi/exampleapp/new_note
+type - document / Redirect
+===>	
+server to browser - text/html
+===>
+browser to server - https GET 200 https://studies.cs.helsinki.fi/exampleapp/notes
+type - document
+===>	
+server to browser - text/html
+===>
+browser to server - https GET 200 https://studies.cs.helsinki.fi/exampleapp/main.css
+type - stylesheet
+===>	
+server to browser - main.css
+===>	
+browser to server - https GET 200 https://studies.cs.helsinki.fi/exampleapp/main.js
+type - script 
+===>	
+server to browser - main.js
+===>
+browser to server - https GET 200 https://studies.cs.helsinki.fi/exampleapp/data.json
+type - xhr	
+===>	
+server to browser - data.json
+===>
+browser to server - https GET 200 https://studies.cs.helsinki.fi/favicon.ico
+type - text/html
+===>
+server to browser - image favicon.ico			

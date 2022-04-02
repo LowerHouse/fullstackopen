@@ -1,0 +1,6 @@
+browser to server - https post 201 https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+type - application/json; charset=utf-8
+===>	
+server to browser - new_note_spa application/json
+
+	
